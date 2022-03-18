@@ -3,16 +3,7 @@
     padding: 0;
     margin: 0;
 }
-.intro {
-    text-align: center;
-}
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
-}
+
 body {
     background-color: #d9dcd6;
 }
@@ -33,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -41,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -84,6 +75,7 @@ p {
     margin-left: 20px;
 }
 
+/*benefits sidebar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
